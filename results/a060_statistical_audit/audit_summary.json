@@ -4,7 +4,7 @@
   "rationale": "Nature Communications statistical reporting guidance requests named tests, n, sidedness and P values. Original confirmatory classifications used project-internally frozen-before-evaluation paired bootstrap CIs plus practical effect thresholds, not P-value thresholds.",
   "test": "exact two-sided paired sign test on non-zero per-seed paired differences",
   "alpha_reference": 0.05,
-  "global_holm_scope": "post hoc sensitivity across seven headline paired comparisons only; not a redefinition of the sequential confirmatory program",
+  "global_holm_scope": "post hoc sensitivity across eight headline paired comparisons only; not a redefinition of the sequential confirmatory program",
   "e051_holm_scope": "post hoc sensitivity across the two E-051 co-primary substrate comparisons",
   "independent_unit": "held-out stochastic simulation seed/episode; not a physical device replicate",
   "rows": [
@@ -17,7 +17,7 @@
       "negative_pairs": 256,
       "positive_pairs": 0,
       "sign_test_p_two_sided": 1.727233711018889e-77,
-      "holm_p_global_sensitivity": 1.2090635977132222e-76,
+      "holm_p_global_sensitivity": 1.3817869688151111e-76,
       "holm_p_e051_coprimary": NaN
     },
     {
@@ -29,7 +29,7 @@
       "negative_pairs": 182,
       "positive_pairs": 10,
       "sign_test_p_two_sided": 4.98041622273063e-42,
-      "holm_p_global_sensitivity": 1.992166489092252e-41,
+      "holm_p_global_sensitivity": 2.4902081113653153e-41,
       "holm_p_e051_coprimary": NaN
     },
     {
@@ -41,7 +41,7 @@
       "negative_pairs": 186,
       "positive_pairs": 6,
       "sign_test_p_two_sided": 2.1162654241705835e-47,
-      "holm_p_global_sensitivity": 1.0581327120852918e-46,
+      "holm_p_global_sensitivity": 1.2697592545023501e-46,
       "holm_p_e051_coprimary": NaN
     },
     {
@@ -53,7 +53,7 @@
       "negative_pairs": 192,
       "positive_pairs": 0,
       "sign_test_p_two_sided": 3.1861838222649046e-58,
-      "holm_p_global_sensitivity": 1.9117102933589427e-57,
+      "holm_p_global_sensitivity": 2.2303286755854332e-57,
       "holm_p_e051_coprimary": NaN
     },
     {
@@ -69,6 +69,18 @@
       "holm_p_e051_coprimary": NaN
     },
     {
+      "experiment": "E-060C1",
+      "hypothesis": "canonical cart-pole task generalization",
+      "n": 128,
+      "mean_delta": -4.909819098780673,
+      "median_delta": -5.001676555076006,
+      "negative_pairs": 118,
+      "positive_pairs": 10,
+      "sign_test_p_two_sided": 1.4543144629831681e-24,
+      "holm_p_global_sensitivity": 2.9086289259663363e-24,
+      "holm_p_e051_coprimary": NaN
+    },
+    {
       "experiment": "E-051C1-E020",
       "hypothesis": "common-state decision regret (E020 substrate)",
       "n": 96,
@@ -77,7 +89,7 @@
       "negative_pairs": 96,
       "positive_pairs": 0,
       "sign_test_p_two_sided": 2.524354896707238e-29,
-      "holm_p_global_sensitivity": 7.573064690121713e-29,
+      "holm_p_global_sensitivity": 1.0097419586828951e-28,
       "holm_p_e051_coprimary": 5.048709793414476e-29
     },
     {
@@ -89,7 +101,7 @@
       "negative_pairs": 96,
       "positive_pairs": 0,
       "sign_test_p_two_sided": 2.524354896707238e-29,
-      "holm_p_global_sensitivity": 7.573064690121713e-29,
+      "holm_p_global_sensitivity": 1.0097419586828951e-28,
       "holm_p_e051_coprimary": 5.048709793414476e-29
     }
   ]
