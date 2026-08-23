@@ -1,0 +1,53 @@
+{
+  "experiment": "E-060C1",
+  "status": "PROJECT_INTERNAL_FROZEN_BEFORE_CONFIRMATORY_OUTCOMES",
+  "benchmark": "canonical cart-pole stabilization",
+  "reference": "Barto-Sutton-Anderson 1983 / standard frictionless CartPole dynamics",
+  "substrate": "InterferometricOracle(d=4, paths=64, detectors=16)",
+  "horizon": 2,
+  "max_steps": 500,
+  "failure_pad": 12.0,
+  "methods": [
+    "noise_aware_mse",
+    "control_aware_rank"
+  ],
+  "training_steps_each": 2600,
+  "rank_weight": 0.02,
+  "checkpoint_characterization": {
+    "noise_aware_mse": {
+      "rmse": 0.2790560584483572,
+      "r2": 0.9583360201649744,
+      "candidate_rmse": 0.052676573395729065,
+      "candidate_action_agreement": 0.578906238079071
+    },
+    "control_aware_rank": {
+      "rmse": 0.27887336259238965,
+      "r2": 0.9583905550462247,
+      "candidate_rmse": 0.20473743975162506,
+      "candidate_action_agreement": 0.8892577886581421
+    },
+    "static_eligibility": {
+      "max_abs_r2_difference": 0.001,
+      "max_rmse_ratio": 1.02
+    }
+  },
+  "confirmatory_n_seeds": 128,
+  "primary_conditions": [
+    "moderate",
+    "strong"
+  ],
+  "primary_endpoint": "per-seed mean of failure-padded stabilization_loss across moderate and strong conditions",
+  "success_rule": "paired bootstrap 95% CI for control-rank minus noise-MSE is below zero AND relative reduction >=10%",
+  "bootstrap_resamples": 20000,
+  "bootstrap_seed": 606060,
+  "secondary": [
+    "nominal stabilization_loss",
+    "survival_steps",
+    "success_500",
+    "action_agreement",
+    "mean_decision_regret",
+    "first_divergence_step",
+    "first_divergence_gap"
+  ],
+  "claim_boundary": "task-generalization evidence on a canonical control benchmark; not hardware validation and not a third physical-substrate claim"
+}

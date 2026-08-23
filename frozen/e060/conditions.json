@@ -1,0 +1,44 @@
+{
+  "nominal": {
+    "plant_rel": 0.0,
+    "force_rel": 0.0,
+    "sensor": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "input_noise": 0.0,
+    "measurement_noise": 0.0,
+    "phase_sigma": 0.0,
+    "coupling_rel": 0.0
+  },
+  "moderate": {
+    "plant_rel": 0.08,
+    "force_rel": 0.04,
+    "sensor": [
+      0.01,
+      0.05,
+      0.003,
+      0.05
+    ],
+    "input_noise": 0.004,
+    "measurement_noise": 0.01,
+    "phase_sigma": 0.025,
+    "coupling_rel": 0.005
+  },
+  "strong": {
+    "plant_rel": 0.15,
+    "force_rel": 0.08,
+    "sensor": [
+      0.02,
+      0.08,
+      0.006,
+      0.08
+    ],
+    "input_noise": 0.008,
+    "measurement_noise": 0.02,
+    "phase_sigma": 0.06,
+    "coupling_rel": 0.01
+  }
+}
