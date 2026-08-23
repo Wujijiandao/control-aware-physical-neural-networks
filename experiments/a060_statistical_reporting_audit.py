@@ -38,6 +38,7 @@ specs = [
     ('E-030C1', RESULTS/'e030_confirmatory/e030c1_paired.csv', 'delta_mean_D', 'oscillator nominal matched-static replication'),
     ('E-031C1', RESULTS/'e031_confirmatory/e031c1_primary_paired.csv', 'delta', 'oscillator robustness'),
     ('E-050C1', RESULTS/'e050_confirmatory/e050c1_primary_paired.csv', 'delta', 'task-matched robustness'),
+    ('E-060C1', RESULTS/'e060_confirmatory/e060c1_primary_paired.csv', 'delta', 'canonical cart-pole task generalization'),
 ]
 rows = []
 for name, path, col, hypothesis in specs:
@@ -75,7 +76,7 @@ meta = {
     'rationale': 'Nature Communications statistical reporting guidance requests named tests, n, sidedness and P values. Original confirmatory classifications used project-internally frozen-before-evaluation paired bootstrap CIs plus practical effect thresholds, not P-value thresholds.',
     'test': 'exact two-sided paired sign test on non-zero per-seed paired differences',
     'alpha_reference': 0.05,
-    'global_holm_scope': 'post hoc sensitivity across seven headline paired comparisons only; not a redefinition of the sequential confirmatory program',
+    'global_holm_scope': 'post hoc sensitivity across eight headline paired comparisons only; not a redefinition of the sequential confirmatory program',
     'e051_holm_scope': 'post hoc sensitivity across the two E-051 co-primary substrate comparisons',
     'independent_unit': 'held-out stochastic simulation seed/episode; not a physical device replicate',
     'rows': aud.to_dict(orient='records'),

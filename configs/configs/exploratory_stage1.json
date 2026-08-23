@@ -1,0 +1,10 @@
+{
+  "status": "exploratory-not-frozen",
+  "state_variables": ["energy", "temperature", "risk"],
+  "actions": ["charge", "cool", "repair", "task", "fast_task"],
+  "default_episode_steps": 400,
+  "default_evaluation_seeds": 100,
+  "physical_oracle": {"paths": 64, "detectors": 16},
+  "measurement_noise_sd": 0.005,
+  "input_encoding_noise_sd": 0.003
+}
