@@ -1,0 +1,30 @@
+[
+  {
+    "name": "nominal",
+    "measurement_noise": 0.0,
+    "input_noise": 0.0,
+    "dynamic_sigma": 0.0,
+    "transduction_rel": 0.0
+  },
+  {
+    "name": "mild",
+    "measurement_noise": 0.005,
+    "input_noise": 0.003,
+    "dynamic_sigma": 0.01,
+    "transduction_rel": 0.002
+  },
+  {
+    "name": "moderate",
+    "measurement_noise": 0.01,
+    "input_noise": 0.006,
+    "dynamic_sigma": 0.03,
+    "transduction_rel": 0.005
+  },
+  {
+    "name": "strong",
+    "measurement_noise": 0.02,
+    "input_noise": 0.012,
+    "dynamic_sigma": 0.08,
+    "transduction_rel": 0.01
+  }
+]

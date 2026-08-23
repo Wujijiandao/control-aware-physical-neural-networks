@@ -1,0 +1,47 @@
+{
+  "experiment": "E-030",
+  "substrate": "NonlinearOscillatorOracle",
+  "architecture": {
+    "oscillators": 24,
+    "integration_steps": 14,
+    "dt": 0.055
+  },
+  "rank_weight": 0.001,
+  "rank_temperature": 0.025,
+  "matching": {
+    "static_discrepancy": 0.039701766793702714,
+    "r2_diff": 5.985273447262074e-05,
+    "rmse_ratio": 1.0035000329810897,
+    "candidate_rmse_ratio": 1.040500416139891
+  },
+  "mse": {
+    "strategy": "mse",
+    "step": 2200,
+    "rank_weight": 0.0,
+    "mse": 0.0008397396304644644,
+    "rmse": 0.028978261343021675,
+    "mae": 0.021300991997122765,
+    "r2": 0.9914646817336612,
+    "candidate_rmse": 0.01734228990972042,
+    "candidate_mae": 0.016477329656481743,
+    "cal_action_agreement": 0.5247222185134888
+  },
+  "control_aware": {
+    "strategy": "control_aware",
+    "rank_weight": 0.001,
+    "step": 2100,
+    "mse": 0.0008456281502731144,
+    "rmse": 0.029079686213456885,
+    "mae": 0.02105386182665825,
+    "r2": 0.9914048289991886,
+    "candidate_rmse": 0.01804465986788273,
+    "candidate_mae": 0.017293909564614296,
+    "cal_action_agreement": 0.5469444394111633
+  },
+  "frozen_static_criteria": {
+    "r2_min": 0.99,
+    "abs_r2_diff_max": 0.001,
+    "global_rmse_ratio_max": 1.02,
+    "candidate_rmse_ratio_max": 1.05
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "experiment_id": "E-051C1",
+  "purpose": "mechanistic action-gap and one-step decision-regret audit",
+  "n_seeds": 96,
+  "steps_per_seed": 220,
+  "state_source": "common exact-teacher trajectories",
+  "lambda_task": 0.02,
+  "substrates": [
+    "E020_interferometric",
+    "E031_oscillator"
+  ],
+  "conditions": [
+    "moderate",
+    "strong"
+  ],
+  "primary_endpoint": "per-seed mean one-step exact score regret averaged across moderate and strong conditions",
+  "primary_comparisons": {
+    "E020": "robust_control_aware vs boundary_aware",
+    "E031": "robust_control_aware vs boundary_aware"
+  },
+  "bootstrap_resamples": 20000,
+  "bootstrap_seed": 951051,
+  "success_criteria_each_substrate": {
+    "paired_bootstrap_ci95_upper_lt": 0.0,
+    "minimum_relative_regret_reduction": 0.1
+  },
+  "secondary": [
+    "action agreement",
+    "p95 regret",
+    "action-gap quartile regret and agreement"
+  ],
+  "single_use": "frozen seed/checkpoint task; deterministic sharding allowed only as computational continuation"
+}

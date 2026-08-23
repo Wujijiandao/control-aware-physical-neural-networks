@@ -1,0 +1,20 @@
+{
+  "experiment_id": "E-010C1",
+  "status": "FROZEN_BEFORE_OUTCOME_EVALUATION",
+  "n_seeds": 256,
+  "steps": 400,
+  "lambda_task": 0.02,
+  "bootstrap_resamples": 20000,
+  "bootstrap_seed": 910201,
+  "primary_relative_reduction_threshold": 0.05,
+  "matching_thresholds": {
+    "r2_min": 0.99,
+    "absolute_r2_difference_max": 0.001,
+    "global_rmse_ratio_max": 1.02,
+    "candidate_rmse_ratio_max": 1.05
+  },
+  "oracle_noise": {
+    "measurement_noise": 0.0,
+    "input_noise": 0.0
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "experiment": "E-031",
+  "substrate": "NonlinearOscillatorOracle",
+  "architecture": {
+    "oscillators": 24,
+    "integration_steps": 14,
+    "dt": 0.055
+  },
+  "common_schedule": {
+    "warmup_updates": 2200,
+    "method_specific_finetune_updates": 1000,
+    "rank_batch": 64
+  },
+  "boundary_aware": {
+    "status": "DEVELOPMENT_ONLY",
+    "schedule": {
+      "warmup": 2200,
+      "finetune": 1000,
+      "rank_batch": 64
+    },
+    "method": "boundary_aware",
+    "weight": null,
+    "warmup_metrics": {
+      "global": {
+        "mse": 0.000949324865359813,
+        "rmse": 0.03081111593824237,
+        "mae": 0.022216882556676865,
+        "r2": 0.9907903491717629
+      },
+      "candidate": {
+        "candidate_rmse": 0.01755680702626705,
+        "candidate_mae": 0.01661972515285015,
+        "cal_action_agreement": 0.5355555415153503
+      }
+    },
+    "global": {
+      "mse": 0.0004508632991928607,
+      "rmse": 0.021233541842868815,
+      "mae": 0.015316838398575783,
+      "r2": 0.9956260562462186
+    },
+    "candidate": {
+      "candidate_rmse": 0.00873434916138649,
+      "candidate_mae": 0.00772981159389019,
+      "cal_action_agreement": 0.5447221994400024
+    },
+    "runtime_seconds": 19.238749980926514,
+    "checkpoint": "results/e031_oscillator_robust_development/boundary_warm_f1000.pt"
+  },
+  "robust_control_aware": {
+    "status": "DEVELOPMENT_ONLY",
+    "schedule": {
+      "warmup": 2200,
+      "finetune": 1000,
+      "rank_batch": 64
+    },
+    "method": "robust_control_aware",
+    "weight": 0.004,
+    "warmup_metrics": {
+      "global": {
+        "mse": 0.000949324865359813,
+        "rmse": 0.03081111593824237,
+        "mae": 0.022216882556676865,
+        "r2": 0.9907903491717629
+      },
+      "candidate": {
+        "candidate_rmse": 0.01755680702626705,
+        "candidate_mae": 0.01661972515285015,
+        "cal_action_agreement": 0.5355555415153503
+      }
+    },
+    "global": {
+      "mse": 0.0006057980353944004,
+      "rmse": 0.02461296478269939,
+      "mae": 0.017775313928723335,
+      "r2": 0.9941229935263133
+    },
+    "candidate": {
+      "candidate_rmse": 0.015435620211064816,
+      "candidate_mae": 0.01481643971055746,
+      "cal_action_agreement": 0.5752778053283691
+    },
+    "runtime_seconds": 22.31868863105774,
+    "checkpoint": "results/e031_oscillator_robust_development/robust_w0p004_warm.pt"
+  },
+  "robust_rank_weight": 0.004,
+  "robust_rank_temperature": 0.025,
+  "quality_floor": {
+    "minimum_clean_r2": 0.99
+  }
+}

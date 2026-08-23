@@ -1,0 +1,32 @@
+{
+  "experiment_id": "E-050C1",
+  "purpose": "task-matched Pareto audit of E-020 robustness result",
+  "substrate": "InterferometricOracle",
+  "n_seeds": 96,
+  "horizon": 400,
+  "lambda_grid": [
+    0.01,
+    0.014,
+    0.018,
+    0.02,
+    0.022,
+    0.026,
+    0.03,
+    0.036
+  ],
+  "conditions": [
+    "moderate",
+    "strong"
+  ],
+  "per_seed_condition_endpoint": "mean viability cost difference after linear interpolation over central 80% of the seed-specific common cumulative-task overlap",
+  "primary_endpoint": "per-seed mean of moderate and strong task-matched viability differences (robust-control minus boundary-aware)",
+  "secondary": "task-matched relative reduction; overlap width; condition-specific differences",
+  "bootstrap_resamples": 20000,
+  "bootstrap_seed": 950501,
+  "success_criteria": {
+    "paired_bootstrap_ci95_upper_lt": 0.0,
+    "minimum_relative_reduction": 0.05
+  },
+  "analysis_note": "linear interpolation only within observed common task range; 10% trimmed from each overlap edge; 41 grid points",
+  "single_use": "frozen seed/checkpoint task; deterministic sharding allowed only as computational continuation"
+}

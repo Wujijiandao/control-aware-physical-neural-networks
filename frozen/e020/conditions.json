@@ -1,0 +1,30 @@
+[
+  {
+    "name": "nominal",
+    "measurement_noise": 0.0,
+    "input_noise": 0.0,
+    "phase_sigma": 0.0,
+    "coupling_rel": 0.0
+  },
+  {
+    "name": "mild",
+    "measurement_noise": 0.005,
+    "input_noise": 0.003,
+    "phase_sigma": 0.01,
+    "coupling_rel": 0.002
+  },
+  {
+    "name": "moderate",
+    "measurement_noise": 0.01,
+    "input_noise": 0.006,
+    "phase_sigma": 0.03,
+    "coupling_rel": 0.005
+  },
+  {
+    "name": "strong",
+    "measurement_noise": 0.02,
+    "input_noise": 0.012,
+    "phase_sigma": 0.08,
+    "coupling_rel": 0.01
+  }
+]

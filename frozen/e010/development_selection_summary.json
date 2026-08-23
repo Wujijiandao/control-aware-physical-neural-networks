@@ -1,0 +1,78 @@
+{
+  "status": "DEVELOPMENT_ONLY_NOT_CONFIRMATORY",
+  "args": {
+    "steps": 1800,
+    "checkpoint_every": 100,
+    "rank_weight": 0.0002,
+    "rank_temperature": 0.025,
+    "development_seeds": 80,
+    "output_dir": "results/e010_dev_r4"
+  },
+  "matching": {
+    "static_discrepancy": 0.04678796655534549,
+    "r2_diff": 8.112588508990548e-05,
+    "rmse_ratio": 1.0049310547908639,
+    "candidate_rmse_ratio": 1.047899795718817
+  },
+  "selected": {
+    "mse": {
+      "checkpoint": {
+        "strategy": "mse",
+        "step": 1600,
+        "mse": 0.0008035032078623772,
+        "rmse": 0.028346132149949084,
+        "mae": 0.02207786776125431,
+        "r2": 0.9917942298624185,
+        "candidate_rmse": 0.01062480267137289,
+        "candidate_mae": 0.008518988266587257,
+        "cal_action_agreement": 0.5442129373550415
+      },
+      "closed_loop_development": {
+        "mean_D": 0.024727471552870223,
+        "se_mean_D": 7.512933253503039e-05,
+        "p95_D": 0.05524933535303918,
+        "se_p95_D": 0.0003294149226037178,
+        "viability_occupancy": 0.9282499999999999,
+        "se_viability_occupancy": 0.0013411394645193083,
+        "severe_fraction": 0.0,
+        "se_severe_fraction": 0.0,
+        "action_agreement": 0.61090625,
+        "se_action_agreement": 0.002060806146606809,
+        "cumulative_task": 196.05689785099995,
+        "se_cumulative_task": 0.36892447482593504
+      }
+    },
+    "control_aware": {
+      "checkpoint": {
+        "strategy": "control_aware",
+        "step": 1700,
+        "mse": 0.0008114469819702208,
+        "rmse": 0.028485908480689548,
+        "mae": 0.022151730954647064,
+        "r2": 0.9917131039773286,
+        "candidate_rmse": 0.011133728548884392,
+        "candidate_mae": 0.008710318244993687,
+        "cal_action_agreement": 0.7314814925193787
+      },
+      "closed_loop_development": {
+        "mean_D": 0.021028372898262836,
+        "se_mean_D": 6.657596540125909e-05,
+        "p95_D": 0.03964411116993223,
+        "se_p95_D": 0.0002798916639293177,
+        "viability_occupancy": 0.9755,
+        "se_viability_occupancy": 0.0009226406791296444,
+        "severe_fraction": 0.0,
+        "se_severe_fraction": 0.0,
+        "action_agreement": 0.63384375,
+        "se_action_agreement": 0.002859425256354363,
+        "cumulative_task": 191.14657627200495,
+        "se_cumulative_task": 0.312727492498194
+      }
+    }
+  },
+  "development_seed_range": [
+    5000,
+    5079
+  ],
+  "configuration_sha256": "3ce7b3d2e54018f8c0dd4df086642d04e1f2fc194681ecd7745c9d7544e75f10"
+}

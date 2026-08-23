@@ -1,0 +1,20 @@
+{
+  "experiment_id": "E-040",
+  "classification": "DESCRIPTIVE_EXTERNAL_EMPIRICAL_GROUNDING",
+  "confirmatory_primary_test": false,
+  "purpose": "Audit whether project-defined synthetic physical perturbation severity is within the order-of-magnitude envelope of published real PNN deployment losses.",
+  "prohibited_inference": "Do not claim external hardware validation of control-aware training.",
+  "sources": [
+    {
+      "doi": "10.1038/s41467-026-68470-9",
+      "role": "published experimental MRR and free-space PNN measurement anchors"
+    },
+    {
+      "doi": "10.1364/OPTICA.523225",
+      "role": "independent published experimental MRR no-TEC anchor"
+    }
+  ],
+  "n_anchors": 7,
+  "missing_reference_policy": "leave missing; do not infer from plots or neighbouring conditions",
+  "third_party_binary_redistribution": false
+}

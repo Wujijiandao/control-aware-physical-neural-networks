@@ -1,0 +1,14 @@
+{
+  "experiment_id": "E-030C1",
+  "n_seeds": 192,
+  "horizon": 400,
+  "primary_endpoint": "paired episode mean viability cost",
+  "primary_comparison": "control_aware - mse",
+  "bootstrap_resamples": 20000,
+  "bootstrap_seed": 930301,
+  "success_criteria": {
+    "paired_bootstrap_ci95_upper_lt": 0.0,
+    "minimum_relative_reduction": 0.05
+  },
+  "no_rerun_policy": "output directory must not pre-exist; this experiment ID is single-use"
+}

@@ -1,0 +1,16 @@
+{
+  "status": "DEVELOPMENT_ONLY",
+  "weight": 0.0016,
+  "global": {
+    "mse": 0.0002739147748798132,
+    "rmse": 0.01655037083813572,
+    "mae": 0.013326326385140419,
+    "r2": 0.9972097801070026
+  },
+  "candidate": {
+    "candidate_rmse": 0.01728549227118492,
+    "candidate_mae": 0.014542210847139359,
+    "cal_action_agreement": 0.7645833492279053
+  },
+  "checkpoint": "results/e020_robust_control_development/w16.pt"
+}

@@ -1,0 +1,19 @@
+{
+  "experiment_id": "E-031C1",
+  "n_seeds": 192,
+  "horizon": 400,
+  "primary_conditions": [
+    "moderate",
+    "strong"
+  ],
+  "primary_endpoint": "per-seed mean of moderate and strong episode mean viability cost",
+  "primary_comparator": "boundary_aware",
+  "primary_method": "robust_control_aware",
+  "bootstrap_resamples": 20000,
+  "bootstrap_seed": 931031,
+  "success_criteria": {
+    "paired_bootstrap_ci95_upper_lt": 0.0,
+    "minimum_relative_reduction": 0.05
+  },
+  "single_use": "frozen seed/checkpoint task; deterministic sharding allowed only as computational continuation"
+}
