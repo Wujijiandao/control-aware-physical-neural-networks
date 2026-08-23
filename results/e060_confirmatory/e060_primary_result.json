@@ -1,0 +1,15 @@
+{
+  "experiment": "E-060C1",
+  "n_seeds": 128,
+  "noise_aware_mse_mean": 8.988151888421296,
+  "control_aware_rank_mean": 4.078332789640623,
+  "paired_delta_control_minus_mse": -4.909819098780673,
+  "ci95": [
+    -5.499909364687906,
+    -4.307064710133569
+  ],
+  "relative_reduction": 0.5462545759941588,
+  "minimum_relative_reduction": 0.1,
+  "primary_success": true,
+  "endpoint": "per-seed mean of failure-padded stabilization_loss across moderate and strong conditions"
+}
