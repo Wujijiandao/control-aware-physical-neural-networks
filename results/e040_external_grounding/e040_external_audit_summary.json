@@ -1,0 +1,36 @@
+{
+  "experiment": "E-040",
+  "status": "EXTERNAL_EMPIRICAL_GROUNDING_DESCRIPTIVE",
+  "n_published_measurement_anchors": 7,
+  "n_reference_normalized_anchors": 4,
+  "external_baseline_relative_loss_range": [
+    0.20454545454545447,
+    0.625
+  ],
+  "external_baseline_relative_loss_median": 0.3705202312138728,
+  "external_robust_relative_loss_range": [
+    0.0,
+    0.06896551724137923
+  ],
+  "external_robust_relative_loss_median": 0.014352338413032073,
+  "external_baseline_stressed_excess_accuracy_range": [
+    0.006666666666666657,
+    0.7777777777777778
+  ],
+  "external_robust_stressed_excess_accuracy_range": [
+    0.8155555555555555,
+    0.9777777777777777
+  ],
+  "external_stressed_accuracy_uplift_pp_range": [
+    16.999999999999993,
+    81.0
+  ],
+  "e020_boundary_aware": {
+    "nominal_mean_D": 0.018479750003490784,
+    "moderate_mean_D": 0.02231602694508437,
+    "strong_mean_D": 0.029497981745863388,
+    "moderate_cost_inflation": 0.2075935519078409,
+    "strong_cost_inflation": 0.5962327271901018
+  },
+  "interpretation": "Published experimental PNN perturbations produce large deployment losses. For anchors with explicit references, baseline chance-adjusted excess-accuracy loss spans roughly 20-63%, while the E-020 boundary-aware synthetic moderate/strong viability-cost inflation is roughly 21-60%. The metrics are not equivalent; this is a severity-envelope grounding check, not experimental validation of the project optimizer."
+}

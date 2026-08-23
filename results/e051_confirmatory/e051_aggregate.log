@@ -1,0 +1,33 @@
+{
+  "experiment": "E-051C1",
+  "status": "CONFIRMATORY_COMPLETED_ONCE",
+  "n_seeds": 96,
+  "co_primary": {
+    "E020": {
+      "boundary_mean_regret": 0.003680648245055257,
+      "robust_mean_regret": 0.0018682149091633954,
+      "paired_difference": -0.0018124333358918614,
+      "bootstrap_ci95": [
+        -0.0018934472693783826,
+        -0.0017293741542142376
+      ],
+      "relative_reduction": 0.4924223167282457,
+      "success": true
+    },
+    "E031": {
+      "boundary_mean_regret": 0.0052470136019279025,
+      "robust_mean_regret": 0.004269184151239149,
+      "paired_difference": -0.0009778294506887543,
+      "bootstrap_ci95": [
+        -0.0010288268693543683,
+        -0.0009245681486099912
+      ],
+      "relative_reduction": 0.18635923686751465,
+      "success": true
+    }
+  },
+  "full_mechanism_success": true,
+  "minimum_relative_regret_reduction": 0.1,
+  "raw_sha256": "ecee188d183eb69d2b2b1a3d56ab6d93564aa35e715fc9602310a5e37c34f224",
+  "paired_sha256": "5e7e222d0c75a9fcc8bd2a9596872da85994ac121fb7ed36ea40c29cac55bea9"
+}

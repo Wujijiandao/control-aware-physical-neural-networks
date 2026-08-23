@@ -1,0 +1,25 @@
+{
+  "title": "Control-aware training of physical neural networks for homeostatic regulation: research software",
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Zhang, Yuzhan",
+      "affiliation": "Independent Researcher"
+    }
+  ],
+  "description": "Reproducible research software, held-out evaluation configurations, source data and integrity records accompanying the manuscript 'Control-aware training of physical neural networks for homeostatic regulation'. The release implements project-maintained interferometric and nonlinear coupled-oscillator physics-constrained estimators, robust control-aware training objectives, held-out closed-loop evaluations, task-matched Pareto analysis, decision-regret analysis and an external experimental stress-envelope audit. The archive contains no copied or vendored third-party research source code and does not redistribute third-party binary experimental data.",
+  "access_right": "open",
+  "license": "mit",
+  "version": "1.0.0",
+  "language": "eng",
+  "keywords": [
+    "physical neural networks",
+    "physical computing",
+    "closed-loop control",
+    "homeostatic control",
+    "photonic computing",
+    "nonlinear dynamical systems",
+    "robust optimization",
+    "reproducible research"
+  ]
+}

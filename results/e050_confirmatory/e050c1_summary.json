@@ -1,0 +1,19 @@
+{
+  "experiment": "E-050C1",
+  "status": "CONFIRMATORY_COMPLETED_ONCE",
+  "n_seeds": 96,
+  "boundary_taskmatched_mean_D": 0.026774094357707497,
+  "robust_taskmatched_mean_D": 0.023575123444863715,
+  "paired_difference": -0.0031989709128437856,
+  "bootstrap_ci95": [
+    -0.003713749611308105,
+    -0.002642410326648329
+  ],
+  "relative_reduction": 0.11948007914310235,
+  "minimum_relative_reduction": 0.05,
+  "primary_success": true,
+  "bootstrap_resamples": 20000,
+  "bootstrap_seed": 950501,
+  "raw_sha256": "bb022efbb7072aa20df1bd7603d8e557e4cd6770fd5fc27fe021afdc8df6b718",
+  "primary_paired_sha256": "34bbd97e441678be327d631fa4d4b3b7f5fb8c669df1c87362c1f37d079bde83"
+}

@@ -1,0 +1,8 @@
+{
+  "experiment": "E-050C1",
+  "shard_index": 1,
+  "num_shards": 4,
+  "n_seeds": 24,
+  "seed_sha256": "22f0607cfb800309f06ca79075fdccbeff6c7fb8a062b73ed760dff209726ab7",
+  "csv_sha256": "10308b02639d8f8458f1d6ac7cee944ce6c5a72671183826d5937e710f9f23b8"
+}
