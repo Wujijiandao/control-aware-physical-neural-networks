@@ -1,2 +1,3 @@
 .......................                                                  [100%]
-23 passed in 1.06s
+23 passed in 1.21s
+Local post-archive alpha.9 mirror; DOI-bound GitHub v1.0.0 independently contains a 23-passed test status.

@@ -1,4 +1,4 @@
-# Public release scope — v0.3.0-alpha.8
+# Public release scope — v0.3.0-alpha.9
 
 This is the clean public reproducibility package for the manuscript “Control-aware training of physical neural networks for homeostatic regulation”.
 

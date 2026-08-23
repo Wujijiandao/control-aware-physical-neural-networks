@@ -1,4 +1,4 @@
-# Reproducibility status — v0.3.0-alpha.8
+# Reproducibility status — v0.3.0-alpha.9
 
 This release separates exploratory/development work from project-internally frozen held-out confirmatory experiments. Scientific claims in the manuscript are backed by frozen checkpoints, seed commitments and fixed aggregation scripts under `frozen/` and `results/`.
 

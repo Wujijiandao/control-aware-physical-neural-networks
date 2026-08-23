@@ -51,4 +51,4 @@ Frozen confirmatory runners verify their checkpoint/seed manifests. E-030 and E-
 
 ## Archival release metadata
 
-`release_metadata/` contains paste-ready GitHub repository metadata, proposed stable `v1.0.0` release notes, a Zenodo metadata JSON template and a stable-release `CITATION.cff` template. The public alpha.8 package is not itself the DOI-bound `v1.0.0`; create that stable release only after the public repository URL is known and the archive is frozen.
+An archival `v1.0.0` release is public at https://github.com/Wujijiandao/control-aware-physical-neural-networks/releases/tag/v1.0.0 and persistently archived at Zenodo DOI `10.5281/zenodo.22068583` (https://doi.org/10.5281/zenodo.22068583). `release_metadata/` is retained as an audit trail of the release metadata. The local alpha.9 package is a post-archive submission mirror; the DOI-bound v1.0.0 record remains the citable software archive.

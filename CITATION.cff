@@ -1,9 +1,12 @@
 cff-version: 1.2.0
 message: "If you use this research software, please cite the archived software release and the associated article when available."
 title: "Control-aware training of physical neural networks for homeostatic regulation: research software"
-version: 0.3.0-alpha.8
+version: 1.0.0
 date-released: 2026-08-23
 type: software
+doi: 10.5281/zenodo.22068583
+repository-code: "https://github.com/Wujijiandao/control-aware-physical-neural-networks"
+url: "https://doi.org/10.5281/zenodo.22068583"
 abstract: "Reproducible research software, frozen evaluation configurations, held-out source data and integrity records for studying control-aware training of physics-constrained estimators in closed-loop homeostatic regulation."
 authors:
   - family-names: Zhang
