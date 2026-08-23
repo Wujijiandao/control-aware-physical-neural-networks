@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this research software, please cite the Zenodo software record and the associated article when available."
+title: "Control-aware training of physical neural networks for homeostatic regulation: research software"
+version: 1.0.0
+date-released: YYYY-MM-DD
+type: software
+abstract: "Reproducible research software, held-out evaluation configurations, source data and integrity records for control-aware training of physics-constrained estimators in closed-loop homeostatic regulation."
+authors:
+  - family-names: Zhang
+    given-names: Yuzhan
+    affiliation: "Independent Researcher"
+    email: "wujijiandao2333@163.com"
+license: MIT
+keywords:
+  - physical neural networks
+  - physical computing
+  - closed-loop control
+  - homeostatic control
+  - photonic computing
+  - nonlinear dynamical systems
+  - robust optimization
+  - reproducible research
+# After Zenodo archives the release, optionally add:
+# doi: "10.5281/zenodo.XXXXXXXX"
+# repository-code: "https://github.com/<GITHUB_USERNAME>/control-aware-physical-neural-networks"

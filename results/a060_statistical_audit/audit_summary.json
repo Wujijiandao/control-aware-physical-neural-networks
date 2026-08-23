@@ -1,0 +1,96 @@
+{
+  "audit_id": "A-060",
+  "status": "POSTHOC_REPORTING_SENSITIVITY_NOT_USED_FOR_ORIGINAL_SUCCESS_CLASSIFICATION",
+  "rationale": "Nature Communications statistical reporting guidance requests named tests, n, sidedness and P values. Original confirmatory classifications used project-internally frozen-before-evaluation paired bootstrap CIs plus practical effect thresholds, not P-value thresholds.",
+  "test": "exact two-sided paired sign test on non-zero per-seed paired differences",
+  "alpha_reference": 0.05,
+  "global_holm_scope": "post hoc sensitivity across seven headline paired comparisons only; not a redefinition of the sequential confirmatory program",
+  "e051_holm_scope": "post hoc sensitivity across the two E-051 co-primary substrate comparisons",
+  "independent_unit": "held-out stochastic simulation seed/episode; not a physical device replicate",
+  "rows": [
+    {
+      "experiment": "E-010C1",
+      "hypothesis": "static-matched interferometric behavior",
+      "n": 256,
+      "mean_delta": -0.003635104341402237,
+      "median_delta": -0.00364409511910215,
+      "negative_pairs": 256,
+      "positive_pairs": 0,
+      "sign_test_p_two_sided": 1.727233711018889e-77,
+      "holm_p_global_sensitivity": 1.2090635977132222e-76,
+      "holm_p_e051_coprimary": NaN
+    },
+    {
+      "experiment": "E-020C1",
+      "hypothesis": "interferometric robustness",
+      "n": 192,
+      "mean_delta": -0.004625849549376703,
+      "median_delta": -0.00482847209929805,
+      "negative_pairs": 182,
+      "positive_pairs": 10,
+      "sign_test_p_two_sided": 4.98041622273063e-42,
+      "holm_p_global_sensitivity": 1.992166489092252e-41,
+      "holm_p_e051_coprimary": NaN
+    },
+    {
+      "experiment": "E-030C1",
+      "hypothesis": "oscillator nominal matched-static replication",
+      "n": 192,
+      "mean_delta": -0.000938074542724617,
+      "median_delta": -0.00092475136794705,
+      "negative_pairs": 186,
+      "positive_pairs": 6,
+      "sign_test_p_two_sided": 2.1162654241705835e-47,
+      "holm_p_global_sensitivity": 1.0581327120852918e-46,
+      "holm_p_e051_coprimary": NaN
+    },
+    {
+      "experiment": "E-031C1",
+      "hypothesis": "oscillator robustness",
+      "n": 192,
+      "mean_delta": -0.009247499757395418,
+      "median_delta": -0.0092326389940891,
+      "negative_pairs": 192,
+      "positive_pairs": 0,
+      "sign_test_p_two_sided": 3.1861838222649046e-58,
+      "holm_p_global_sensitivity": 1.9117102933589427e-57,
+      "holm_p_e051_coprimary": NaN
+    },
+    {
+      "experiment": "E-050C1",
+      "hypothesis": "task-matched robustness",
+      "n": 96,
+      "mean_delta": -0.003198970912843744,
+      "median_delta": -0.0034907035038343,
+      "negative_pairs": 87,
+      "positive_pairs": 9,
+      "sign_test_p_two_sided": 3.640258907444359e-17,
+      "holm_p_global_sensitivity": 3.640258907444359e-17,
+      "holm_p_e051_coprimary": NaN
+    },
+    {
+      "experiment": "E-051C1-E020",
+      "hypothesis": "common-state decision regret (E020 substrate)",
+      "n": 96,
+      "mean_delta": -0.0018124333358918241,
+      "median_delta": -0.00180469541077065,
+      "negative_pairs": 96,
+      "positive_pairs": 0,
+      "sign_test_p_two_sided": 2.524354896707238e-29,
+      "holm_p_global_sensitivity": 7.573064690121713e-29,
+      "holm_p_e051_coprimary": 5.048709793414476e-29
+    },
+    {
+      "experiment": "E-051C1-E031",
+      "hypothesis": "common-state decision regret (E031 substrate)",
+      "n": 96,
+      "mean_delta": -0.0009778294506887113,
+      "median_delta": -0.0009857488787817,
+      "negative_pairs": 96,
+      "positive_pairs": 0,
+      "sign_test_p_two_sided": 2.524354896707238e-29,
+      "holm_p_global_sensitivity": 7.573064690121713e-29,
+      "holm_p_e051_coprimary": 5.048709793414476e-29
+    }
+  ]
+}

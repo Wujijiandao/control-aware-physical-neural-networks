@@ -1,0 +1,31 @@
+{
+  "status": "POSTHOC_DESCRIPTIVE_NOT_PRIMARY",
+  "n": 256,
+  "paired_differences": {
+    "p95_D": {
+      "mean": -0.015272803498467696,
+      "ci95_low": -0.01567555209007682,
+      "ci95_high": -0.014874057386810375
+    },
+    "viability_occupancy": {
+      "mean": 0.044658203125000004,
+      "ci95_low": 0.043251953125,
+      "ci95_high": 0.04607421875
+    },
+    "severe_fraction": {
+      "mean": -9.765625e-06,
+      "ci95_low": -2.9296875e-05,
+      "ci95_high": 0.0
+    },
+    "action_agreement": {
+      "mean": 0.026630859374999996,
+      "ci95_low": 0.023066406249999998,
+      "ci95_high": 0.03017578125
+    },
+    "cumulative_task": {
+      "mean": -4.902579573352449,
+      "ci95_low": -5.083558329296795,
+      "ci95_high": -4.7201629249700074
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "experiment_id": "E-010C1",
+  "status": "CONFIRMATORY_COMPLETED_ONCE",
+  "frozen_input_hashes": {
+    "seed_sha256": "7f0505222c2bea1cb6414093035d2ba6b764016f68fe1c1ef90da567e6a6b1ce",
+    "sha256_selected_mse.pt": "5a656de9850a84937149a59867fa0d8280d7fb7faa0a247fea02491d644392fb",
+    "sha256_selected_control_aware.pt": "44be87253047964e765053b4ea6e3c88a1c84a7a606270a0cea5b1d1f48ac62c",
+    "sha256_development_selection_summary.json": "3b904f8150ebdf2ecd47792fb8069d61faea654b18d31c154fc94e96e77f4bea"
+  },
+  "config": {
+    "experiment_id": "E-010C1",
+    "status": "FROZEN_BEFORE_OUTCOME_EVALUATION",
+    "n_seeds": 256,
+    "steps": 400,
+    "lambda_task": 0.02,
+    "bootstrap_resamples": 20000,
+    "bootstrap_seed": 910201,
+    "primary_relative_reduction_threshold": 0.05,
+    "matching_thresholds": {
+      "r2_min": 0.99,
+      "absolute_r2_difference_max": 0.001,
+      "global_rmse_ratio_max": 1.02,
+      "candidate_rmse_ratio_max": 1.05
+    },
+    "oracle_noise": {
+      "measurement_noise": 0.0,
+      "input_noise": 0.0
+    }
+  },
+  "primary": {
+    "definition": "control_aware mean_D minus MSE mean_D, paired by seed",
+    "mean": -0.0036351043414022902,
+    "ci95_low": -0.003712230152738663,
+    "ci95_high": -0.0035566127733243275,
+    "mse_mean_D": 0.024579139444962712,
+    "control_mean_D": 0.020944035103560424,
+    "relative_reduction": 0.14789388170167497,
+    "criterion_ci_upper_below_zero": true,
+    "criterion_relative_reduction_at_least_threshold": true,
+    "primary_success": true
+  },
+  "mse_summary": {
+    "mean_D": {
+      "mean": 0.024579139444962712,
+      "sd": 0.0006812867793085666,
+      "se": 4.258042370678541e-05
+    },
+    "p95_D": {
+      "mean": 0.05451879444962464,
+      "sd": 0.003181577710669751,
+      "se": 0.00019884860691685944
+    },
+    "viability_occupancy": {
+      "mean": 0.931240234375,
+      "sd": 0.012231424585706814,
+      "se": 0.0007644640366066759
+    },
+    "severe_fraction": {
+      "mean": 9.765625e-06,
+      "sd": 0.00015624999999999998,
+      "se": 9.765624999999999e-06
+    },
+    "action_agreement": {
+      "mean": 0.609033203125,
+      "sd": 0.018444880024318933,
+      "se": 0.0011528050015199333
+    },
+    "cumulative_task": {
+      "mean": 196.02287097178908,
+      "sd": 3.5187220063479843,
+      "se": 0.21992012539674902
+    }
+  },
+  "control_aware_summary": {
+    "mean_D": {
+      "mean": 0.020944035103560424,
+      "sd": 0.0005800416666158343,
+      "se": 3.625260416348964e-05
+    },
+    "p95_D": {
+      "mean": 0.03924599095115694,
+      "sd": 0.0023734285709710577,
+      "se": 0.0001483392856856911
+    },
+    "viability_occupancy": {
+      "mean": 0.9758984375,
+      "sd": 0.00808796233942281,
+      "se": 0.0005054976462139256
+    },
+    "severe_fraction": {
+      "mean": 0.0,
+      "sd": 0.0,
+      "se": 0.0
+    },
+    "action_agreement": {
+      "mean": 0.6356640625,
+      "sd": 0.026062677798330856,
+      "se": 0.0016289173623956785
+    },
+    "cumulative_task": {
+      "mean": 191.12029139843662,
+      "sd": 3.2600859246476115,
+      "se": 0.20375537029047572
+    }
+  },
+  "raw_csv_sha256": "7f45dcfb3d51fffa6f5942d31a5bcb879d080074495b7d27e2a8c10d00a80920"
+}

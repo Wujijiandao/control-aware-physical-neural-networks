@@ -1,0 +1,28 @@
+{
+  "experiment": "E-020C1",
+  "status": "CONFIRMATORY_COMPLETED_ONCE",
+  "primary_comparator": "boundary_aware",
+  "primary_method": "robust_control_aware",
+  "n_seeds": 192,
+  "conditions": [
+    "moderate",
+    "strong"
+  ],
+  "horizon": 400,
+  "boundary_stress_mean_D": 0.02590700434547392,
+  "robust_control_stress_mean_D": 0.021281154796097174,
+  "paired_difference": -0.004625849549376747,
+  "bootstrap_ci95": [
+    -0.005013235615859507,
+    -0.004232959069078757
+  ],
+  "relative_reduction": 0.17855594138520708,
+  "prespecified_minimum_relative_reduction": 0.05,
+  "primary_success": true,
+  "bootstrap_resamples": 20000,
+  "bootstrap_seed": 920201,
+  "runtime_seconds": 27.885716199874878,
+  "seed_sha256": "5be6bb4a42ee941108d48ce1af4a01ea45e161ec5bb2ed594ead76d8ea02d20f",
+  "raw_sha256": "bb4269c7fde10b294a53500a22e7e07c838b2c2d3789095f25da9e357ae84c25",
+  "paired_sha256": "5044b772e0ef182b14221346b69004c4fec964bb10c1465335484d20ec84a72b"
+}

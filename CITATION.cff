@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this research software, please cite the archived software release and the associated article when available."
+title: "Control-aware training of physical neural networks for homeostatic regulation: research software"
+version: 0.3.0-alpha.8
+date-released: 2026-08-23
+type: software
+abstract: "Reproducible research software, frozen evaluation configurations, held-out source data and integrity records for studying control-aware training of physics-constrained estimators in closed-loop homeostatic regulation."
+authors:
+  - family-names: Zhang
+    given-names: Yuzhan
+    affiliation: "Independent Researcher"
+    email: "wujijiandao2333@163.com"
+license: MIT
+keywords:
+  - physical neural networks
+  - physical computing
+  - closed-loop control
+  - homeostatic control
+  - photonic computing
+  - nonlinear dynamical systems
+  - robust optimization
+  - reproducible research

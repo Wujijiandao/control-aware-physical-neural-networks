@@ -1,0 +1,72 @@
+{
+  "experiment": "E-031C1",
+  "status": "CONFIRMATORY_COMPLETED_ONCE_VIA_FROZEN_SHARDS",
+  "n_seeds": 192,
+  "conditions": [
+    "moderate",
+    "strong"
+  ],
+  "boundary_stress_mean_D": 0.032299914250158795,
+  "robust_control_stress_mean_D": 0.023052414492763327,
+  "paired_difference": -0.009247499757395465,
+  "bootstrap_ci95": [
+    -0.009421723097823385,
+    -0.009073684450403678
+  ],
+  "relative_reduction": 0.28630106215684475,
+  "prespecified_minimum_relative_reduction": 0.05,
+  "primary_success": true,
+  "bootstrap_resamples": 20000,
+  "bootstrap_seed": 931031,
+  "descriptive_secondary": {
+    "boundary_aware": {
+      "moderate": {
+        "mean_D": 0.02795699360212649,
+        "p95_D": 0.0676789970829209,
+        "viability_occupancy": 0.8592187500000001,
+        "severe_fraction": 6.510416666666667e-05,
+        "action_agreement": 0.4661458333333333,
+        "cumulative_task": 190.85672826222995
+      },
+      "strong": {
+        "mean_D": 0.0366428348981911,
+        "p95_D": 0.08830280884214332,
+        "viability_occupancy": 0.746953125,
+        "severe_fraction": 0.0005598958333333334,
+        "action_agreement": 0.428203125,
+        "cumulative_task": 184.09861647213688
+      }
+    },
+    "robust_control_aware": {
+      "moderate": {
+        "mean_D": 0.0203037187864178,
+        "p95_D": 0.05491895448480925,
+        "viability_occupancy": 0.9313020833333333,
+        "severe_fraction": 9.114583333333334e-05,
+        "action_agreement": 0.44829427083333334,
+        "cumulative_task": 192.80005152654948
+      },
+      "strong": {
+        "mean_D": 0.025801110199108857,
+        "p95_D": 0.06931729859913754,
+        "viability_occupancy": 0.8714192708333334,
+        "severe_fraction": 0.0001171875,
+        "action_agreement": 0.4276822916666667,
+        "cumulative_task": 185.70082156079926
+      }
+    }
+  },
+  "seed_sha256": "da4192222d5ef6cf4602cb6af3b996ca8488c89b93811749057f87d0d4d0f9ab",
+  "raw_sha256": "dcd048dcdcfbde7df9f10948ba4e67f5fed0af638a6bac08c679286cd5501730",
+  "paired_sha256": "860a377e53122532e3423afa724ac900cb786ba21602ac3a79d9e67ac3b8ae74",
+  "shard_sha256": {
+    "shard_00_of_08.csv": "d50c5941bcc8b13ed53e22bd6bb5bb8b9487f3413aa7c07fd59e82d7fe924229",
+    "shard_01_of_08.csv": "3e6ac54b09490324385686fa8173e6c712c780b622bf57ddddc8fcc88fb0563d",
+    "shard_02_of_08.csv": "b349fce8f0526695fa7f7c74a3bbd2f66eadbe551b2cd4316f1781db81f9f16c",
+    "shard_03_of_08.csv": "f50018d0b1e73077654c06a6f0049a4ee755660ee835e85f9ecd8e18c516baa2",
+    "shard_04_of_08.csv": "c1f034bfdacbaa39607f2247fa10e44a02005c28ee157571d3fd94fff8c1a7ed",
+    "shard_05_of_08.csv": "f5a721603c745dd7a76e9e9e978e8bb290ef3bfefe90b466d72adafdddd5a5a4",
+    "shard_06_of_08.csv": "be2cbd37655133df900a6d062a39115430c53640000625491005283ccfbb8e35",
+    "shard_07_of_08.csv": "244362667d8377d24100d276e130b9d791acf7a5eb4825b04404ee0c0555cd29"
+  }
+}

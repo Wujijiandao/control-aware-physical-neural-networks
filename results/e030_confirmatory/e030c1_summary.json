@@ -1,0 +1,50 @@
+{
+  "experiment": "E-030C1",
+  "status": "CONFIRMATORY_COMPLETED_ONCE_VIA_FROZEN_SHARDS",
+  "technical_note": "Monolithic execution exceeded wall-clock before writing outcomes; identical frozen task resumed in 8 deterministic seed shards.",
+  "n_seeds": 192,
+  "horizon": 400,
+  "mse_mean_D": 0.022650711556990426,
+  "control_mean_D": 0.021712637014265762,
+  "paired_difference": -0.0009380745427246661,
+  "bootstrap_ci95": [
+    -0.001019603572672182,
+    -0.0008572289108542755
+  ],
+  "relative_reduction": 0.04141479354255241,
+  "prespecified_minimum_relative_reduction": 0.05,
+  "primary_success": false,
+  "bootstrap_resamples": 20000,
+  "bootstrap_seed": 930301,
+  "descriptive_secondary": {
+    "mse": {
+      "mean_D": 0.022650711556990426,
+      "p95_D": 0.05513546252405812,
+      "viability_occupancy": 0.9265494791666667,
+      "severe_fraction": 3.90625e-05,
+      "action_agreement": 0.5236718749999999,
+      "cumulative_task": 203.8558671549582
+    },
+    "control_aware": {
+      "mean_D": 0.021712637014265762,
+      "p95_D": 0.0529567961834432,
+      "viability_occupancy": 0.9352473958333333,
+      "severe_fraction": 1.3020833333333334e-05,
+      "action_agreement": 0.50453125,
+      "cumulative_task": 203.75768904679657
+    }
+  },
+  "seed_sha256": "9ae0eaf0aa681043d7d8ef9a5ed8751b9ac9704f463eeb7b52abd3e448e502ef",
+  "raw_sha256": "e78ea369cbb348b9e16d94a17217d4f1f57b5b592f01a01e5c3541ebbaf4aa43",
+  "paired_sha256": "deed2bb40260f2f6a88813abc080cf1c4ed4f838974932489cb9cd47d0853bf3",
+  "shard_sha256": {
+    "shard_00_of_08.csv": "c8ef9c0ad12ad6473a143fe7d806395dea6d59b28a4ec09de19f25fbb68b23f6",
+    "shard_01_of_08.csv": "63011d43b8676670deb1fb1f071ab5163c6cc23e8b26603a617b2a8511c5e23c",
+    "shard_02_of_08.csv": "f868098f6187d5e15fc10572963b2889958fb86644d6e5f7113e54aa921b025e",
+    "shard_03_of_08.csv": "4c42e1eb78d2de5f69b2bc4888292cd601ac5a2339607c3851c5798255b9a2b7",
+    "shard_04_of_08.csv": "1a81e6cabc5bf64da969141093c229191c841fd3884ef38aedc83a27ea07bc09",
+    "shard_05_of_08.csv": "5d5a4ffd528bc117c66588afcac7ed6c2d0d17828b761ccc4cbf8db46f0ffaa3",
+    "shard_06_of_08.csv": "3dd58ab875fe3ed686c87bad29859c71c7919adae544fdd5e64f453ff2905b96",
+    "shard_07_of_08.csv": "869f5d05ba7764e32fd79bed66edd650f424cc087cc443c9d689c61c6fbaae0d"
+  }
+}

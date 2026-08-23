@@ -1,0 +1,10 @@
+{
+  "experiment": "E-030C1",
+  "continuation": "frozen computational shard",
+  "shard_index": 6,
+  "num_shards": 8,
+  "n_seeds": 24,
+  "first_seed_position": 6,
+  "seed_file_sha256": "9ae0eaf0aa681043d7d8ef9a5ed8751b9ac9704f463eeb7b52abd3e448e502ef",
+  "csv_sha256": "3dd58ab875fe3ed686c87bad29859c71c7919adae544fdd5e64f453ff2905b96"
+}
