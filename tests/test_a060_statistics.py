@@ -10,7 +10,7 @@ def test_a060_outputs_exist_and_cover_headline_comparisons():
     assert csv.exists() and js.exists()
     df = pd.read_csv(csv)
     assert set(df['experiment']) == {
-        'E-010C1','E-020C1','E-030C1','E-031C1','E-050C1','E-051C1-E020','E-051C1-E031'
+        'E-010C1','E-020C1','E-030C1','E-031C1','E-050C1','E-060C1','E-051C1-E020','E-051C1-E031'
     }
     assert (df['sign_test_p_two_sided'] < 0.001).all()
     assert (df['holm_p_global_sensitivity'] < 0.001).all()

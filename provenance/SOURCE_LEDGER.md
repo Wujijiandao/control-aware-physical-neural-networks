@@ -18,7 +18,7 @@
 
 ## Project-original materials in this package
 
-Unless explicitly marked as Springer Nature template material, files created under this package are new project files authored for this research programme. No third-party source repository has been copied into `software/`.
+Unless explicitly marked as Springer Nature template material, files created under this package are new project-maintained files for this research programme. No third-party source repository has been copied into `software/`. Generative-AI assistance in literature organization, methodological option generation, code drafting/debugging, manuscript drafting and reviewer-style stress testing is disclosed separately; this does not alter the no-vendored-third-party-source criterion.
 
 ## E-040 external experimental sources — 2026-08-23
 - Nature Communications 17, 1766 (2026), DOI `10.1038/s41467-026-68470-9`: factual extraction of experimental PNN performance under model-reality mismatch, temperature drift and free-space misalignment. Article is CC BY 4.0. No third-party code/binary data copied.

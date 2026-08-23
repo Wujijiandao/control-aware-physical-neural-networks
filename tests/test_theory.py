@@ -22,3 +22,14 @@ class TheoryTests(unittest.TestCase):
         self.assertEqual(subgaussian_action_mismatch_bound([0.1, 0.2], 0.0), 0.0)
 
 if __name__ == "__main__": unittest.main()
+
+
+def test_finite_horizon_first_divergence_bound():
+    from piha.theory import finite_horizon_first_divergence_bound, finite_horizon_match_probability_lower_bound
+    gaps=[np.array([0.4,0.7]),np.array([0.5,0.8])]
+    b=finite_horizon_first_divergence_bound(gaps,0.1)
+    assert 0.0 <= b <= 1.0
+    assert np.isclose(finite_horizon_match_probability_lower_bound(gaps,0.1),1.0-b)
+    # Larger margins cannot make the union bound worse.
+    b2=finite_horizon_first_divergence_bound([g*2 for g in gaps],0.1)
+    assert b2 <= b

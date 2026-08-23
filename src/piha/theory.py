@@ -47,3 +47,36 @@ def subgaussian_action_mismatch_bound(gaps, pairwise_sigma: float) -> float:
         return 0.0
     p = np.exp(-(g ** 2) / (2.0 * float(pairwise_sigma) ** 2)).sum()
     return float(min(1.0, p))
+
+
+def finite_horizon_first_divergence_bound(gap_sequences, pairwise_sigma):
+    """Union bound for first action divergence along an exact-reference path.
+
+    ``gap_sequences[t]`` contains the positive score gaps J_t(a)-J_t(a*_t)
+    for every competitor at exact-reference state t. ``pairwise_sigma`` may be
+    a scalar or one value per time step. If, conditional on having matched the
+    exact controller up to time t, each pairwise score-error difference obeys
+    the same sub-Gaussian tail convention used by
+    :func:`subgaussian_action_mismatch_bound`, then the probability of any
+    action divergence by horizon T is at most the sum of the per-step mismatch
+    bounds. No independence across time is required for this union bound.
+    """
+    gaps=[np.asarray(g,dtype=float) for g in gap_sequences]
+    if any(np.any(g<=0) for g in gaps):
+        raise ValueError("all competitor gaps must be strictly positive")
+    sig=np.asarray(pairwise_sigma,dtype=float)
+    if sig.ndim==0:
+        sig=np.full(len(gaps),float(sig))
+    if len(sig)!=len(gaps):
+        raise ValueError("pairwise_sigma must be scalar or have one value per time step")
+    if np.any(sig<0):
+        raise ValueError("pairwise_sigma must be non-negative")
+    total=0.0
+    for g,s in zip(gaps,sig):
+        total += subgaussian_action_mismatch_bound(g,float(s))
+    return float(min(1.0,total))
+
+
+def finite_horizon_match_probability_lower_bound(gap_sequences, pairwise_sigma):
+    """Lower bound on preserving the exact-reference action sequence."""
+    return float(max(0.0, 1.0-finite_horizon_first_divergence_bound(gap_sequences,pairwise_sigma)))

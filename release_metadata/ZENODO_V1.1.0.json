@@ -1,0 +1,26 @@
+{
+  "title": "Control-aware training of physical neural networks for closed-loop regulation: research software",
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Zhang, Yuzhan",
+      "affiliation": "Independent Researcher"
+    }
+  ],
+  "description": "Reproducible research software, frozen evaluation configurations, source data and integrity records accompanying the manuscript 'Control-aware training of physical neural networks for closed-loop regulation'. Version 1.1.0 adds the canonical Cart-Pole E-060C1 task-generalization study, finite-horizon first-divergence analysis and associated source-data/integrity records while retaining the complete prior confirmatory and negative-result record.",
+  "access_right": "open",
+  "license": "mit",
+  "version": "1.1.0",
+  "language": "eng",
+  "keywords": [
+    "physical neural networks",
+    "physical computing",
+    "closed-loop control",
+    "control theory",
+    "photonic computing",
+    "nonlinear dynamical systems",
+    "robust optimization",
+    "cart-pole",
+    "reproducible research"
+  ]
+}

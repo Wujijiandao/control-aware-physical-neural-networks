@@ -1,50 +1,17 @@
-# GitHub repository metadata - ready-to-enter values
+# GitHub repository metadata — v1.1.0 update
 
-## Repository creation
+Repository: `Wujijiandao/control-aware-physical-neural-networks`  
+Visibility: Public  
+License: MIT  
+Default branch: `main`
 
-- **Recommended repository name:** `control-aware-physical-neural-networks`
-- **Visibility:** Public (when ready to make the reproducibility package public)
-- **Description:** `Reproducible code, frozen evaluation configurations and source data for control-aware training of physics-constrained neural networks in closed-loop homeostatic regulation.`
-- **Initialize with README:** No - upload/push the cleaned Public package, which already contains the README and license.
-- **License:** MIT
-- **Default branch:** `main`
+Recommended description:
+`Reproducible code, frozen evaluations and source data for control-aware training of physical neural networks in closed-loop regulation.`
 
-## Recommended GitHub topics
+Recommended topics:
+`physical-neural-networks`, `physical-computing`, `photonic-computing`, `neuromorphic-computing`, `closed-loop-control`, `control-theory`, `nonlinear-dynamics`, `robust-optimization`, `cart-pole`, `reproducible-research`.
 
-`physical-neural-networks`  
-`physical-computing`  
-`photonic-computing`  
-`neuromorphic-computing`  
-`closed-loop-control`  
-`homeostatic-control`  
-`robust-optimization`  
-`nonlinear-dynamics`  
-`reproducible-research`
+Next release: `v1.1.0`  
+Persistent Zenodo concept DOI: `10.5281/zenodo.22068583`.
 
-## Recommended About text
-
-> Research software and held-out computational evidence accompanying “Control-aware training of physical neural networks for homeostatic regulation”.
-
-## Repository URL placeholder
-
-`https://github.com/<GITHUB_USERNAME>/control-aware-physical-neural-networks`
-
-Do not insert a guessed GitHub username. Replace `<GITHUB_USERNAME>` with the account/organization that will own the public record.
-
-## Files that should be present at repository root before the archival release
-
-- `README.md`
-- `LICENSE`
-- `CITATION.cff`
-- `.zenodo.json` (copy the final template from `release_metadata/ZENODO_V1.0.0.json` and rename it)
-- `REPRODUCIBILITY.md`
-- `pyproject.toml`
-- `requirements.txt`
-- source code / experiments / tests / source_data / provenance folders from the cleaned Public package
-
-## Files that should NOT be copied into the public repository
-
-- Nature/Springer journal template files (`sn-jnl.cls`, `sn-nature.bst`)
-- internal development notes or reviewer-strategy documents
-- third-party research notebooks/checkpoints/binary measurement files
-- credentials, API keys, local absolute paths or private correspondence
+Upload only the cleaned Public-package contents. Do not upload Nature/Springer template files, internal research notes, private correspondence or third-party binary research data.
