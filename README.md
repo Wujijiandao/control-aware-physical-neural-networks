@@ -33,6 +33,7 @@ Frozen confirmatory runners verify their checkpoint/seed/configuration manifests
 
 ## Public archive
 Target GitHub release: **v1.1.0**.  
-Persistent Zenodo concept DOI: **10.5281/zenodo.22068583**.
+Zenodo v2 DOI for public release v1.1.0: **10.5281/zenodo.22069483**.  
+Persistent all-version concept DOI: **10.5281/zenodo.22068582**.
 
 No third-party research source code is copied or vendored. Generative-AI assistance is documented in the manuscript and repository documentation; the author remains responsible for the scientific work.
