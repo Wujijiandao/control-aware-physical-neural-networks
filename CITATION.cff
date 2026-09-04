@@ -4,9 +4,9 @@ title: "Control-aware training of physical neural networks for closed-loop regul
 version: 1.1.0
 date-released: 2026-08-23
 type: software
-doi: 10.5281/zenodo.22068583
+doi: 10.5281/zenodo.22069483
 repository-code: "https://github.com/Wujijiandao/control-aware-physical-neural-networks"
-url: "https://doi.org/10.5281/zenodo.22068583"
+url: "https://doi.org/10.5281/zenodo.22069483"
 abstract: "Reproducible research software, frozen evaluation configurations, source data and integrity records for control-aware training of physics-constrained estimators in closed-loop regulation, including homeostatic and canonical Cart-Pole evaluations."
 authors:
   - family-names: Zhang
